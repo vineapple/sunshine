@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "sunshine",
+	"version": "${version}",
+	"name": "Sunshine",
+	"description": "Minecraft Entity Optimizer for 1.21.11",
+	"authors": [
+		"Vineapple"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/sunshine/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"kinor.sunshine.client.SunshineClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "sunshine.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

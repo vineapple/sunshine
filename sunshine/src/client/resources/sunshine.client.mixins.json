@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "kinor.sunshine.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EntityRenderDispatcherMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
