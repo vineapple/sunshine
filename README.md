@@ -1,4 +1,5 @@
-# Sunshine ☀
+# Sunshine
+![Sunshine Banner](https://cdn.modrinth.com/data/cached_images/2682c11a8cb2528985ab7c07c571c1b9b8f31031.png)
 
 **Minecraft Entity Optimiser for 1.21.11**
 
