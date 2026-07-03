@@ -5,7 +5,7 @@
 
 Sunshine is a purely **client-side** Fabric mod that collapses large piles of
 identical dropped item entities into a small, configurable number of visible
-renders. The hidden entities remain fully alive — they tick, collide, float,
+renders. The hidden entities remain fully alive, they tick, collide, float,
 and can be walked over and picked up exactly as vanilla. Only their drawing is
 skipped.
 
@@ -75,7 +75,7 @@ be edited by hand in `.minecraft/config/sunshine.json`:
 - **Minecraft:** 1.21.11  
 - **Mod loader:** Fabric Loader ≥ 0.19.3  
 - **Fabric API:** 0.141.4+1.21.11 (or compatible)  
-- **Side:** Client-only — install only on the client; not required on servers  
+- **Side:** Client-only — install only on the client
 - **Other mods:** Compatible with other rendering/culling mods; Sunshine only
   ever adds an additional reason to skip a render, never forces one to appear
 
@@ -84,10 +84,10 @@ be edited by hand in `.minecraft/config/sunshine.json`:
 ## Building from source
 
 ```bash
-git clone <repo>
+git clone https://github.com/vineapple/sunshine.git
 cd sunshine
 ./gradlew build
-# Output: build/libs/sunshine-<version>.jar
+# Output: build/libs/sunshine-1.0.0.jar
 ```
 
 ---
