@@ -14,7 +14,7 @@ skipped.
 ## Why it helps
 
 When many identical items land in the same spot (ore veins mined with
-Fortune, mob farms, mass crafting output, etc.) Minecraft renders every one
+Fortune, mob farms, mass crafting output, etc) Minecraft renders every one
 of those item stacks independently, each with its own animated model and
 shadow. With 250 dirt stacks on the ground you pay the GPU cost for 250
 models even though they look identical and completely overlap. Sunshine
@@ -76,7 +76,7 @@ be edited by hand in `.minecraft/config/sunshine.json`:
 - **Mod loader:** Fabric Loader ≥ 0.19.3  
 - **Fabric API:** 0.141.4+1.21.11 (or compatible)  
 - **Side:** Client-only — install only on the client
-- **Other mods:** Compatible with other rendering/culling mods; Sunshine only
+- **Other mods:** Compatible with other rendering/culling mods, Sunshine only
   ever adds an additional reason to skip a render, never forces one to appear
 
 ---
